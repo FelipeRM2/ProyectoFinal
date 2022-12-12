@@ -5,6 +5,9 @@
     margin: 0px;
 }
 
+.bkc{
+    background-color: rgb(185, 63, 63);
+}
 body{
     background-color: antiquewhite;
 }
@@ -53,7 +56,6 @@ li{
     margin-top: 20px;
     margin-bottom: -75px;
 }
-
 
 
 
@@ -274,7 +276,10 @@ h3{
 .container-form ,btn-enviar{
     background: white;
 }
-
+.container-form{
+    align-items: center;
+    justify-content: center;
+}
 
 /* Esto es del buscador */
 .container{
@@ -396,4 +401,10 @@ input{
     flex-direction: column;
     gap: 10px;
     padding-bottom: 100px;
+}
+
+.pagination{
+    display: flex;
+    align-items:center;
+    justify-content: center;
 }
