@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    margin: auto;
+    background-color: rgb(185, 63, 63);
+    padding: -10px;
+    margin-bottom: 50px;
+}
+
+.bkc {
+    background-color: rgb(185, 63, 63);
+}
+
+footer {
+    padding-bottom: 50px;
+    background-color: rgb(185, 63, 63);
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    list-style-type: none;
+}
